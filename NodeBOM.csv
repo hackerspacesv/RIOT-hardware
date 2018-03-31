@@ -1,0 +1,16 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"PACKAGE";"PROD_ID";"SUPPLIER";"TP_SIGNAL_NAME";
+"1";"";"JST_2PIN-THM-RA";"JST-PH-2-THM-RA";"LIPO_BATT";"JST 2-Pin Connectors of various flavors";"";"";"";"";"";"";"";"";
+"2";"";"MA12-1";"MA12-1";"SV1, SV2";"PIN HEADER";"";"";"unknown";"unknown";"";"";"";"";
+"1";" SI2301CDS-T1-GE3 ";"MOSFET-PCHANNEL";"SOT23-3";"Q1";"Generic PMOSFET";"";"";"";"";"";"TRANS-08285";"";"";
+"2";"10K";"RESISTOR0805-RES";"0805";"R1, R2";"Resistor";"";"";"";"";"";"";"";"";
+"1";"1N5819HW-7-F";"1N5819HW-7-F";"SOD123";"D1";"";"";"";"";"";"";"";"";"";
+"1";"ATSAMR21G18-MR210UA";"ATSAMR21G18-MR210UA";"ATSAMR21G18A-MR210UA";"IC4";"";"";"";"";"";"";"";"";"";
+"1";"CORTEX_DEBUGPTH";"CORTEX_DEBUGPTH";"2X5-PTH-1.27MM";"JTAG";"Cortex Debug Connector";"";"";"";"";"";"";"";"";
+"1";"EVQ-PNF04M";"EVQ-PNF04M";"PANASONIC_EVQPE1/PN/5P";"S1";"";"";"";"";"";"";"";"";"";
+"1";"LTC4412";"LTC4412";"SOT23-6L";"IC2";"";"";"";"";"";"";"";"";"";
+"1";"MCP73831T-2ATI/OT";"MCP73831T-2ATI/OT";"SOT95P300X145-5N";"IC1";"IC, BATT CHARGER, Li-Ion Li-Polymer, 500 mA";"";"MCP73831T-2ATI/OT";"1834890";"84R5196";"SOT23-5";"";"Microchip";"";
+"1";"NCP4589DSN33T1G";"NCP4589DSN33T1G";"SOT23-5";"IC3";"";"";"";"";"";"";"";"";"";
+"2";"SOLDERJUMPERTRACE";"SOLDERJUMPERTRACE";"SJ_2S-TRACE";"SJ1, SJ2";"Solder Jumper";"";"";"";"";"";"";"";"";
+"2";"TPB2,54";"TPB2,54";"B2,54";"TP1, TP2";"Test pad";"";"";"";"";"";"";"";"";
+"2";"TPSB107M010R0400";"TPSB107M010R0400";"1210-POLARIZED";"C1, C2";"";"";"";"";"";"";"";"";"";
+"1";"USB-MICRO-B";"USB-MICRO-B";"HPL511";"USB_CONN";"";"";"";"";"";"";"";"";"";
