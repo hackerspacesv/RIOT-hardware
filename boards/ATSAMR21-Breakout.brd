@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -983,10 +983,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="TRANS-08285" x="12.446" y="12.954" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="14.224" y="11.1125" size="0.8128" layer="25" font="vector" ratio="16" rot="R90"/>
 </element>
-<element name="C1" library="custom_componentsv0.9" package="1210-POLARIZED" value="TPSB107M010R0400" x="11.938" y="8.636" smashed="yes" rot="R270">
+<element name="C1" library="custom_componentsv0.9" package="1210-POLARIZED" value="10uF" x="11.938" y="8.636" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.462" y="9.398" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="C2" library="custom_componentsv0.9" package="1210-POLARIZED" value="TPSB107M010R0400" x="12.446" y="19.304" smashed="yes" rot="R270">
+<element name="C2" library="custom_componentsv0.9" package="1210-POLARIZED" value="47uF" x="12.446" y="19.304" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.684" y="16.002" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
 <element name="IC1" library="custom_components" package="SOT95P300X145-5N" value="MCP73831T-2ATI/OT" x="18.542" y="11.43" smashed="yes">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2825,10 +2825,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D1" library="custom_components" deviceset="1N5819HW-7-F" device=""/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="" value=" SI2301CDS-T1-GE3 "/>
-<part name="C1" library="custom_componentsv0.9" deviceset="TPSB107M010R0400" device=""/>
+<part name="C1" library="custom_componentsv0.9" deviceset="TPSB107M010R0400" device="" value="10uF"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C2" library="custom_componentsv0.9" deviceset="TPSB107M010R0400" device=""/>
+<part name="C2" library="custom_componentsv0.9" deviceset="TPSB107M010R0400" device="" value="47uF"/>
 <part name="IC1" library="custom_components" deviceset="MCP73831T-2ATI/OT" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K"/>
