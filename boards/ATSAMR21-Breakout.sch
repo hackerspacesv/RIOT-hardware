@@ -298,6 +298,18 @@
 <vertex x="1.225" y="-1.225"/>
 <vertex x="-1.225" y="-1.225"/>
 </polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-1.3" y="1.3"/>
+<vertex x="1.3" y="1.3"/>
+<vertex x="1.3" y="-1.3"/>
+<vertex x="-1.3" y="-1.3"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.2" y="1.2"/>
+<vertex x="1.2" y="1.2"/>
+<vertex x="1.2" y="-1.2"/>
+<vertex x="-1.2" y="-1.2"/>
+</polygon>
 </package>
 </packages>
 <symbols>

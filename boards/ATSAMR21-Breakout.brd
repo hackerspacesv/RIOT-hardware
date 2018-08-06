@@ -195,7 +195,7 @@
 <text x="23.622" y="26.162" size="0.8128" layer="26" font="vector" ratio="16" rot="MR0">ADC1</text>
 <text x="23.622" y="28.702" size="0.8128" layer="26" font="vector" ratio="16" rot="MR0">GPIO*</text>
 <text x="1.524" y="31.75" size="0.8128" layer="25" font="vector" ratio="16" rot="R90">HACKERSPACE.SV</text>
-<text x="26.416" y="32.004" size="0.8128" layer="25" font="vector" ratio="16" rot="R90">ATSAMR21 BREAKOUT V0.1</text>
+<text x="26.416" y="32.004" size="0.8128" layer="25" font="vector" ratio="16" rot="R90">ATSAMR21 BREAKOUT V0.2</text>
 <text x="2.54" y="31.75" size="0.8128" layer="25" font="vector" ratio="16" rot="R90">08/18</text>
 <text x="19.812" y="18.034" size="0.8128" layer="22" font="vector" rot="MR0">Cut SJ3 &amp; SJ4 to
 charge battery
@@ -366,6 +366,18 @@ battery</text>
 <vertex x="1.225" y="1.225"/>
 <vertex x="1.225" y="-1.225"/>
 <vertex x="-1.225" y="-1.225"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-1.3" y="1.3"/>
+<vertex x="1.3" y="1.3"/>
+<vertex x="1.3" y="-1.3"/>
+<vertex x="-1.3" y="-1.3"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-1.2" y="1.2"/>
+<vertex x="1.2" y="1.2"/>
+<vertex x="1.2" y="-1.2"/>
+<vertex x="-1.2" y="-1.2"/>
 </polygon>
 </package>
 </packages>
