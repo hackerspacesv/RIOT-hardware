@@ -1,0 +1,17 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"PROD_ID";"TP_SIGNAL_NAME";"VALUE";
+"1";"";"JST_2PIN-THM-RA";"JST-PH-2-THM-RA";"LIPO_BATT";"JST 2-Pin Connectors of various flavors";"";"";"";"";"";"";"";
+"2";"";"MA12-1";"MA12-1";"SV1, SV2";"PIN HEADER";"";"";"unknown";"unknown";"";"";"";
+"1";"100K";"RESISTOR0805-RES";"0805";"R3";"Resistor";"";"";"";"";"";"";"";
+"4";"10K";"RESISTOR0805-RES";"0805";"R2, R4, R5, R6";"Resistor";"";"";"";"";"";"";"";
+"1";"10uF";"22UF-0805-6.3V-20%";"0805";"C4";"22µF ceramic capacitors";"";"";"";"";"CAP-08402";"";"22uF";
+"1";"2K";"RESISTOR0805-RES";"0805";"R1";"Resistor";"";"";"";"";"";"";"";
+"2";"4.7uF";"22UF-0805-6.3V-20%";"0805";"C1, C3";"22µF ceramic capacitors";"";"";"";"";"CAP-08402";"";"22uF";
+"1";"47uF";"TPSB107M010R0400";"1210-POLARIZED";"C2";"";"";"";"";"";"";"";"";
+"1";"ATSAMR21G18-MR210UA";"ATSAMR21G18-MR210UA";"ATSAMR21G18A-MR210UA";"IC4";"";"";"";"";"";"";"";"";
+"1";"CORTEX_DEBUGPTH";"CORTEX_DEBUGPTH";"2X5-PTH-1.27MM";"JTAG";"Cortex Debug Connector";"";"";"";"";"";"";"";
+"1";"EVQ-PNF04M";"EVQ-PNF04M";"PANASONIC_EVQPE1/PN/5P";"S1";"";"";"";"";"";"";"";"";
+"1";"MCP73871T";"MCP73871T";"QFN-20";"U$1";"";"";"";"";"";"";"";"";
+"1";"NCP4589DSN33T1G";"NCP4589DSN33T1G";"SOT23-5";"IC3";"";"";"";"";"";"";"";"";
+"4";"SOLDERJUMPERTRACE";"SOLDERJUMPERTRACE";"SJ_2S-TRACE";"SJ1, SJ2, SJ3, SJ4";"Solder Jumper";"";"";"";"";"";"";"";
+"3";"TPB2,54";"TPB2,54";"B2,54";"TP1, TP2, TP3";"Test pad";"";"";"";"";"";"";"";
+"1";"USB-MICRO-B";"USB-MICRO-B";"HPL511";"USB_CONN";"";"";"";"";"";"";"";"";

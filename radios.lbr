@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -322,6 +322,47 @@
 <circle x="1.3" y="0" radius="0.1" width="0.127" layer="21"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="QFN-20">
+<smd name="1" x="-1.9" y="1" dx="0.7" dy="0.25" layer="1"/>
+<smd name="2" x="-1.9" y="0.5" dx="0.7" dy="0.25" layer="1"/>
+<smd name="3" x="-1.9" y="0" dx="0.7" dy="0.25" layer="1"/>
+<smd name="4" x="-1.9" y="-0.5" dx="0.7" dy="0.25" layer="1"/>
+<smd name="5" x="-1.9" y="-1" dx="0.7" dy="0.25" layer="1"/>
+<smd name="6" x="-1" y="-1.9" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="7" x="-0.5" y="-1.9" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="8" x="0" y="-1.9" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="9" x="0.5" y="-1.9" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="10" x="1" y="-1.9" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="11" x="1.9" y="-1" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="12" x="1.9" y="-0.5" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="13" x="1.9" y="0" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="14" x="1.9" y="0.5" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="15" x="1.9" y="1" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="16" x="1" y="1.9" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<smd name="17" x="0.5" y="1.9" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<smd name="18" x="0" y="1.9" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<smd name="19" x="-0.5" y="1.9" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<smd name="20" x="-1" y="1.9" dx="0.7" dy="0.25" layer="1" rot="R270"/>
+<wire x1="-2" y1="1.5" x2="-2" y2="2" width="0.127" layer="21"/>
+<wire x1="-2" y1="2" x2="-1.5" y2="2" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
+<wire x1="2" y1="2" x2="2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2" x2="2" y2="-2" width="0.127" layer="21"/>
+<wire x1="2" y1="-2" x2="2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="-1.5" width="0.127" layer="21"/>
+<circle x="-2.5" y="1.5" radius="0.1" width="0.127" layer="21"/>
+<pad name="EP$1" x="-0.75" y="0.75" drill="0.254" diameter="0.381"/>
+<pad name="EP$4" x="0.75" y="0.75" drill="0.254" diameter="0.381"/>
+<pad name="EP$3" x="0.75" y="-0.75" drill="0.254" diameter="0.381"/>
+<pad name="EP$2" x="-0.75" y="-0.75" drill="0.254" diameter="0.381"/>
+<polygon width="0.127" layer="1">
+<vertex x="-1.225" y="1.225"/>
+<vertex x="1.225" y="1.225"/>
+<vertex x="1.225" y="-1.225"/>
+<vertex x="-1.225" y="-1.225"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="ATSAMR21G18-MR210UA">
@@ -406,6 +447,29 @@
 <circle x="-2.54" y="0" radius="0.254" width="0.254" layer="94"/>
 <circle x="2.54" y="0" radius="0.254" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0" x2="1.778" y2="1.524" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MCP73871">
+<pin name="IN" x="-15.24" y="10.16" length="middle" direction="pwr"/>
+<pin name="VPCC" x="-15.24" y="7.62" length="middle"/>
+<pin name="PG" x="-15.24" y="5.08" length="middle" direction="out" function="dot"/>
+<pin name="STAT2" x="-15.24" y="2.54" length="middle" direction="out"/>
+<pin name="STAT1" x="-15.24" y="0" length="middle" direction="out"/>
+<pin name="SEL" x="-15.24" y="-2.54" length="middle"/>
+<pin name="PROG2" x="-15.24" y="-5.08" length="middle" direction="in"/>
+<pin name="TE" x="-15.24" y="-7.62" length="middle" direction="in" function="dot"/>
+<pin name="CE" x="-15.24" y="-10.16" length="middle" direction="in"/>
+<pin name="VSS" x="0" y="-17.78" length="middle" direction="pwr" rot="R90"/>
+<pin name="PROG3" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="PROG1" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="THERM" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="VBAT" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="OUT" x="15.24" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="12.7" size="1.27" layer="97">&gt;NAME</text>
+<pin name="PE" x="-5.08" y="-17.78" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -511,6 +575,36 @@
 <connects>
 <connect gate="G$1" pin="1" pad="P1"/>
 <connect gate="G$1" pin="2" pad="P2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP73871T">
+<gates>
+<gate name="G$1" symbol="MCP73871" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN-20">
+<connects>
+<connect gate="G$1" pin="CE" pad="17"/>
+<connect gate="G$1" pin="IN" pad="18 19"/>
+<connect gate="G$1" pin="OUT" pad="1 20"/>
+<connect gate="G$1" pin="PE" pad="EP$1 EP$2 EP$3 EP$4"/>
+<connect gate="G$1" pin="PG" pad="6"/>
+<connect gate="G$1" pin="PROG1" pad="13"/>
+<connect gate="G$1" pin="PROG2" pad="4"/>
+<connect gate="G$1" pin="PROG3" pad="12"/>
+<connect gate="G$1" pin="SEL" pad="3"/>
+<connect gate="G$1" pin="STAT1" pad="8"/>
+<connect gate="G$1" pin="STAT2" pad="7"/>
+<connect gate="G$1" pin="TE" pad="9"/>
+<connect gate="G$1" pin="THERM" pad="5"/>
+<connect gate="G$1" pin="VBAT" pad="14 15 16"/>
+<connect gate="G$1" pin="VPCC" pad="2"/>
+<connect gate="G$1" pin="VSS" pad="10 11"/>
 </connects>
 <technologies>
 <technology name=""/>
