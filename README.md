@@ -22,6 +22,10 @@ for the supported boards over
   system-on-a-module that runs a lightweight version of GNU/Linux. This breakout board
   should facilitate the creation of low-cost WiFi-802.15.4 bridges and edge routers.
 
+### Board documentation
+
+A guide (in spanish) to use this board with RIOT OS is available at the [Hackerspace San Salvador Wiki](http://hackerspace.teubi.co/wiki/index.php?title=HSSV_ATSAMR21_Breakout)
+
 ### Licensing and use
 **Copyright 2018 Mario Gomez <mario.gomez@teubi.co>**
 
