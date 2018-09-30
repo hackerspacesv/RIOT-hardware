@@ -1,13 +1,13 @@
-Hackerspace San Salvador Contiki Development Boards
+Hackerspace San Salvador RIOT OS Development Boards
 ===================================================
 This repository contains all the design files for the boards supported by the
-[Contiki OS](http://www.contiki-os.org/) port mantained by the [Hackerspace
-San Salvador](http://hackerspace.teubi.co/). You can find the Contiki port 
+[RIOT OS](https://www.riot-os.org/) port mantained by the [Hackerspace
+San Salvador](http://hackerspace.teubi.co/). You can find the RIOT OS port 
 for the supported boards over
-[https://github.com/hackerspacesv/contiki-hssv](https://github.com/hackerspacesv/contiki-hssv).
+[https://github.com/hackerspacesv/RIOT](https://github.com/hackerspacesv/RIOT).
 
 ### Current boards supported
-* **ATSAMR21 Breakout Board**: A development board to accelerate the deployment of
+* **[ATSAMR21 Breakout Board](http://hackerspace.teubi.co/wiki/index.php?title=HSSV_ATSAMR21_Breakout_English)**: A development board to accelerate the deployment of
   IEEE 802.15.4 based networks on the 2.4Ghz band. It is based on the
   ATSAMR21G18-MR210UA module wich also includes support for antenna-diversity and
   a crypto-acceleration chip. This board was designed to be breadboard-friendly
@@ -24,7 +24,7 @@ for the supported boards over
 
 ### Board documentation
 
-A guide (in spanish) to use this board with RIOT OS is available at the [Hackerspace San Salvador Wiki](http://hackerspace.teubi.co/wiki/index.php?title=HSSV_ATSAMR21_Breakout)
+A guide to use this board with RIOT OS is available at the [Hackerspace San Salvador Wiki](http://hackerspace.teubi.co/wiki/index.php?title=HSSV_ATSAMR21_Breakout_English)
 
 ### Licensing and use
 **Copyright 2018 Mario Gomez <mario.gomez@teubi.co>**
